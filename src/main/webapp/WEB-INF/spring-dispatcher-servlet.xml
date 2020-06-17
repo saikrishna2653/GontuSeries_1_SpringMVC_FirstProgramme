@@ -17,7 +17,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
  
  <context:component-scan base-package="org.gontuseries.hellocontroller" />
 
-	
+	<!--<context:component-scan base-package="org.gontuseries.hellocontroller" />-->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
 			<value>/WEB-INF/</value>
